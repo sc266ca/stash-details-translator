@@ -68,13 +68,13 @@
 
 ```
 :: 先看看现在的翻译状态（只读）
-python translate_details.py --oshash c0ddf05f783525d3 --check
+python translate_details.py --oshash 16位值 --check
 
 :: 不满意？一条命令重翻（自动清除旧译文 -> 重新翻译 -> 写回）
-python translate_details.py --oshash c0ddf05f783525d3
+python translate_details.py --oshash 16位值
 
 :: 还不满意？再跑一次就换一个翻译结果；想彻底恢复原版：
-python translate_details.py --oshash c0ddf05f783525d3 --clear
+python translate_details.py --oshash 16位值 --clear
 ```
 
 - 单片**重翻**需要 KoboldCpp 在运行；单片**清除**只需要 Stash 在运行
