@@ -1,0 +1,8 @@
+# 个人数据，不要上传
+config.ini
+translated_ids.json
+original_details.json
+*.sqlite
+*.backup-*.sqlite
+translate_debug.log
+__pycache__/
