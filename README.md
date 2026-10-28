@@ -27,8 +27,8 @@
 1. **Python 3.8+**（[python.org](https://www.python.org/downloads/) 下载，安装时勾选 "Add Python to PATH"）
 2. **[KoboldCpp](https://github.com/LostRuins/koboldcpp/releases)**（下载 `koboldcpp.exe` 或 `koboldcpp_nocuda.exe`）
 3. 一个**翻译向的本地模型**（GGUF 格式），推荐：
-   - [Murasaki-Translator](https://huggingface.co/DavidNguyen03/Murasaki-Translator)——整段翻译完整、质量好（本项目默认测试用），下载其中的 `Murasaki-8B-v0.2-Q5_K_M.gguf`
-   - [Sakura-GalTransl](https://huggingface.co/SakuraLLM)——日文翻译质量高
+   - [Murasaki-Translator](https://huggingface.co/DavidNguyen03/Murasaki-Translator)（本项目默认测试用），下载其中的 `Murasaki-8B-v0.2-Q5_K_M.gguf`优点：日文翻译质量较高，缺点:有思维链，硬件水平低输出速度较慢。
+   - [Sakura-GalTransl](https://huggingface.co/SakuraLLM)——无思维链，输出速度快
 
    ⚠️ 不推荐用字幕类模型（如 `ja2zh` 系列）：它们被训练成"一大段压成一行"，会把整段简介缩成一句话。
 4. [Stash](https://github.com/stashapp/stash)——本工具在 **v0.31.1**（Windows）上开发测试，其他版本未验证
