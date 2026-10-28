@@ -1,6 +1,8 @@
 # Stash 简介批量翻译工具
 
 一个给 [Stash](https://github.com/stashapp/stash) 用的零依赖本地翻译小工具：调用你自己的本地大模型（KoboldCpp），把影片库里的英文/日文简介批量翻译成中文，译文追加在原文下方，原文永远保留，随时可还原。
+效果预览
+<img width="439" height="511" alt="屏幕截图 2026-10-28 185005" src="https://github.com/user-attachments/assets/a01b4e1c-3274-45ec-a8dd-4c38469d7f8d" />
 
 ## 功能特性
 
